@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#800080"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="MidtermBtuEasy"
+        android:textColor="@android:color/white"
+        android:textSize="21sp" />
+
+    <!-- Counter Display with Gradient Circle -->
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:id="@+id/textViewCounter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="36sp"
+        android:background="@drawable/gradient_circle"
+        android:padding="16dp" />
+
+    <!-- Description Text under Circle -->
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click button to increase number"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:textColor="#555555" />
+
+    <!-- Click Button -->
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/buttonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click"
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

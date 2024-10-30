@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9C27B0"
+        android:title="MidtermBtuEasy"
+        android:titleTextColor="#FFFFFF"
+        android:elevation="4dp" />
+
+    <!-- Icon -->
+    <ImageView
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/person_icon" />
+
+    <!-- Greeting TextView -->
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/textViewGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Name"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Name Input -->
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="enter your name here"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Okay Button -->
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/buttonOkay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Okay"
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <!-- Next Button -->
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
